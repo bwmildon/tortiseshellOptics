@@ -80,3 +80,21 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+.graphics {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.graphics .graphicBlock {
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.graphics .graphicBlock h3 {
+  flex-shrink: 1;
+}
